@@ -1,8 +1,8 @@
 cask "type4me" do
-  version "1.3.7"
-  sha256 "fcff6c7ed1d429a7a7920a78aa740c47ecfa6560a834d8127fd02e9b5ce6e997"
+  version "1.6.2"
+  sha256 "d1d62534497d43f79665a7b96d21b4e42ef076e54a25db28c6fe8d10c454c992"
 
-  url "https://github.com/joewongjc/type4me/releases/download/v#{version}/Type4Me-v#{version}.dmg"
+  url "https://github.com/joewongjc/type4me/releases/download/v#{version}/Type4Me-v#{version}-cloud.dmg"
   name "Type4Me"
   desc "macOS voice input tool powered by Volcano Engine ASR"
   homepage "https://github.com/joewongjc/type4me"
