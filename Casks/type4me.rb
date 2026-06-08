@@ -7,14 +7,8 @@ cask "type4me" do
   desc "macOS voice input tool powered by Volcano Engine ASR"
   homepage "https://github.com/joewongjc/type4me"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "Type4Me.app"
 
-  caveats <<~EOS
-    Type4Me is not notarized. On first launch, macOS Gatekeeper may block it.
-    To allow it, run:
-      xattr -d com.apple.quarantine /Applications/Type4Me.app
-    Or go to System Settings > Privacy & Security > click "Open Anyway".
-  EOS
 end
