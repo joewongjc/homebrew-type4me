@@ -1,6 +1,6 @@
 cask "type4me" do
-  version "1.9.5"
-  sha256 "2cac23982de6c5358e6d00e5bc7e5e3942c22b2e2593bc558366bc6222e26a32"
+  version "1.9.6"
+  sha256 "f220362622130bf6b56db86de459e696b9eeb2ba25ff721f9fd79063c2cc51f4"
 
   url "https://github.com/joewongjc/type4me/releases/download/v#{version}/Type4Me-v#{version}-cloud.dmg"
   name "Type4Me"
@@ -10,5 +10,4 @@ cask "type4me" do
   depends_on macos: :sonoma
 
   app "Type4Me.app"
-
 end
