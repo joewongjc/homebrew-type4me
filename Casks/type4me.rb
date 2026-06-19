@@ -1,6 +1,6 @@
 cask "type4me" do
-  version "1.9.6"
-  sha256 "f220362622130bf6b56db86de459e696b9eeb2ba25ff721f9fd79063c2cc51f4"
+  version "1.9.7"
+  sha256 "2299f2307bd1e0e3cd44f8da98b9464a6258b7869b2917362988e65e471c905a"
 
   url "https://github.com/joewongjc/type4me/releases/download/v#{version}/Type4Me-v#{version}-cloud.dmg"
   name "Type4Me"
