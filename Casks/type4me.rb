@@ -7,7 +7,7 @@ cask "type4me" do
   desc "macOS voice input tool powered by Volcano Engine ASR"
   homepage "https://github.com/joewongjc/type4me"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "Type4Me.app"
 end
